@@ -47,7 +47,6 @@ Info = [
 name_counter = {}
 
 for i in Info:
-    name = i['name']
     color = i['color']
     if color not in name_counter:
         name_counter[color] = 0
